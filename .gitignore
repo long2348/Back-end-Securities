@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.npm
+
+# Build output
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Superpowers plugin data
+.superpowers/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# NestJS
+.nest/
+
+# TypeORM
+ormconfig.json
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Temp / scratch
+.superpowers/sdd/
+*.tmp

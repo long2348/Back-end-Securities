@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Admin/.claude/projects/c--NestJSFolder-BESecurities/memory/**)",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\NestJSFolder\\\\BESecurities\\\\.superpowers\\\\sdd\")"
+    ],
+    "additionalDirectories": [
+      "c:\\NestJSFolder\\BESecurities\\docs\\superpowers"
+    ]
+  }
+}
