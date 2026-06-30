@@ -24,6 +24,12 @@ Thumbs.db
 # Superpowers plugin data
 .superpowers/
 
+# Claude Code config (đặc thù theo máy local)
+.claude/
+
+# Docs
+docs/
+
 # IDE
 .vscode/
 .idea/
