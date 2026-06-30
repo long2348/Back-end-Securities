@@ -2,10 +2,20 @@
   "permissions": {
     "allow": [
       "Read(//c/Users/Admin/.claude/projects/c--NestJSFolder-BESecurities/memory/**)",
-      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\NestJSFolder\\\\BESecurities\\\\.superpowers\\\\sdd\")"
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\NestJSFolder\\\\BESecurities\\\\.superpowers\\\\sdd\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\NestJSFolder\\\\BESecurities\\\\docs\\\\superpowers\\\\plans\")",
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)",
+      "PowerShell(nest --version 2>$null)",
+      "PowerShell(if \\(-not $?\\) { \"NestJS CLI not found globally\" })",
+      "PowerShell(cd \"c:\\\\NestJSFolder\\\\BESecurities\"; Get-ChildItem src -Recurse | Select-Object FullName | ForEach-Object { $_.FullName.Replace\\(\"c:\\\\NestJSFolder\\\\BESecurities\\\\\", \"\"\\) })",
+      "Bash(mkdir -p \"C:/NestJSFolder/BESecurities/docker\")",
+      "Bash(mkdir -p \"C:/NestJSFolder/BESecurities/src/config\")",
+      "Bash(mkdir -p \"C:/NestJSFolder/BESecurities/.superpowers/sdd\")"
     ],
     "additionalDirectories": [
-      "c:\\NestJSFolder\\BESecurities\\docs\\superpowers"
+      "c:\\NestJSFolder\\BESecurities\\docs\\superpowers",
+      "C:\\NestJSFolder\\BESecurities\\src"
     ]
   }
 }
